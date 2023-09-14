@@ -1,59 +1,101 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  font-family:sans-serif;
-  margin: 25px;
-  color: #222;
-  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  background-color: #f1f6f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f1f6f9;
+}
+
+h3 {
+  color: white;
+  margin: 5px;
 }
 
 h1 {
+  font-size: 36px;
   font-weight: bold;
-  
+  margin-bottom: 20px;
+  color: #212a3e;
 }
 
 p {
-  max-width: 900px;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
 }
 
 form {
-  margin-bottom: 25px;
-  padding: 15px;
-  background-color: #87D37C;
-  display: inline-block;
-  width: 100%;
-  max-width: 340px;
+  background-color: #394867;
+  border: 1px solid #ddd;
   border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
-input {
-  display: block;
-  margin-bottom: 10px;
-  padding: 5px;
+input[type="text"],
+input[type="submit"] {
   width: 100%;
-  border: 1px solid lightgrey;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
   border-radius: 3px;
-  font-size: 16px;
 }
 
-input[type=submit] {
+input[type="submit"] {
+  background-color: #212a3e;
+  color: #fff;
   font-size: 16px;
-  border-radius: 3px;
-  background-color: #E4F1FE;
-  border: 1px solid grey;
-  box-shadow: 2px 2px #999;
+  border: none;
   cursor: pointer;
 }
 
-input[type=submit]:hover {
-  background-color: #FFFEC4;
+input[type="submit"]:hover {
+  background-color: #0056b3;
 }
 
 code {
   font-family: monospace;
-  font-size: 1.2em;
-  background-color: #FFFEC4;
-  padding: 2px;
+  background-color: #9ba4b5;
+  padding: 3px 6px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+#info {
+  background-color: #212a3e;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#info p {
+  margin-bottom: 10px;
+  color: #394867;
+  text-shadow: 1px 1px 1px #ccc;
+}
+
+#info strong {
+  color: white;
+}
+
+#info code {
+  background-color: #ccc;
+  padding: 2px 6px;
+  border: 3px solid #394867;
+  border-radius: 3px;
+  font-family: monospace;
+  font-size: 16px;
 }

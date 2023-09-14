@@ -1,0 +1,98 @@
+{
+  "users": [
+    {
+      "username": "fcc_test_16947279293",
+      "_id": "f50f6145-329c-4f62-bbfe-09cbdf9200f2"
+    },
+    {
+      "username": "fcc_test_16947279303",
+      "_id": "2cab568d-54bd-4a61-864a-2fac5d9ac3ea"
+    },
+    {
+      "username": "fcc_test_16947279383",
+      "_id": "6901d870-603f-4006-98ad-25d15fd30222",
+      "log": [
+        {
+          "description": "test",
+          "duration": 60,
+          "date": "1990-01-01"
+        }
+      ]
+    },
+    {
+      "username": "fcc_test_16947279394",
+      "_id": "c7d7c2ac-ca12-471f-8ec8-f94c33c43fed",
+      "log": [
+        {
+          "description": "test",
+          "duration": 60,
+          "date": "Thu Sep 14 2023"
+        }
+      ]
+    },
+    {
+      "username": "fcc_test_16947279416",
+      "_id": "b6b33198-7a20-40dd-a8a5-22c05026a8b0"
+    },
+    {
+      "username": "fcc_test_16947279466",
+      "_id": "bf076a14-f0dc-4ba7-af46-6c882d896ac2",
+      "log": [
+        {
+          "description": "test",
+          "duration": 60,
+          "date": "Thu Sep 14 2023"
+        }
+      ]
+    },
+    {
+      "username": "fcc_test_16947279483",
+      "_id": "26b81a71-e0d6-48b0-af9f-27da76133d62",
+      "log": [
+        {
+          "description": "test",
+          "duration": 60,
+          "date": "Thu Sep 14 2023"
+        }
+      ]
+    },
+    {
+      "username": "fcc_test_16947279534",
+      "_id": "dbc1d8ff-3d8a-4802-afb2-5ec9c32caeff",
+      "log": [
+        {
+          "description": "test",
+          "duration": 60,
+          "date": "Thu Sep 14 2023"
+        }
+      ]
+    },
+    {
+      "username": "fcc_test_16947279551",
+      "_id": "b7da12cf-5bb9-457c-a4f6-cd5d7c2ed5bf",
+      "log": [
+        {
+          "description": "test",
+          "duration": 60,
+          "date": "Thu Sep 14 2023"
+        }
+      ]
+    },
+    {
+      "username": "fcc_test_16947279618",
+      "_id": "6d13c8a9-741f-4a5d-af05-972454dc0494",
+      "log": [
+        {
+          "description": "test",
+          "duration": 60,
+          "date": "1990-01-01"
+        },
+        {
+          "description": "test",
+          "duration": 60,
+          "date": "1990-01-03"
+        }
+      ]
+    }
+  ]
+}
